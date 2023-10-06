@@ -1,0 +1,10 @@
+/* Color de fondo de la pagina web */
+html,
+body {
+  background-color: steelblue;
+}
+
+/* Centrar horizontalmente ↔ titulos <h1> */
+h1 {
+  text-align: center;
+}

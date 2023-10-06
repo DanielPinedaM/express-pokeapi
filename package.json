@@ -1,0 +1,21 @@
+{
+  "author": "Daniel Pineda Mora",
+  "description": "Parte 2 - Prueba Técnica Backend de Feria del Brasier y Solo Kukos (Marrocar)",
+  "devDependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "express-pokeapi",
+  "scripts": {
+    "html": "node src/render_html_in_express/render.js",
+    "new": "node src/routes/new.js",
+    "pokemon": "node --env-file .env src/pokeapi/index.js",
+    "jwt": "node --env-file .env src/JWT/index.js"
+  },
+  "version": "1.0.0"
+}
